@@ -19,9 +19,9 @@ export default function Hero() {
         </div>
 
         {/* Tagline */}
-        <p className="mt-2 text-center text-lg font-medium text-zinc-300 tracking-wide">
+        {/* <p className="mt-2 text-center text-lg font-medium text-zinc-300 tracking-wide">
           Perpetual Stable Machine
-        </p>
+        </p> */}
 
         {/* Description */}
         <p className="mt-4 text-center text-sm sm:text-base text-zinc-400 max-w-[680px] mx-auto">
