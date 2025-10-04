@@ -17,7 +17,7 @@ export default function SiteFooter() {
         <p className="text-[13px] text-zinc-200">
           CA:{" "}
           <span className="text-primary/80 font-mono tracking-tight">
-            0xAbc...123
+            0x8137F55298E3C7c10B86268d5938b7E88B6aa75c
           </span>{" "}
         </p>
         <div className="">
@@ -38,11 +38,11 @@ export default function SiteFooter() {
           </a>
           •{" "}
           <a
-            href="www.etherscan.io"
+            href="https://etherscan.io/address/0x8137f55298e3c7c10b86268d5938b7e88b6aa75c"
             className="underline decoration-dotted hover:text-primary transition-colors"
             aria-label="StableStrategy on X"
           >
-          Etherscan
+            Etherscan
           </a>
         </div>
 
