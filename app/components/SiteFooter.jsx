@@ -5,32 +5,41 @@ export default function SiteFooter() {
       <span className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
 
       <div className="container-max flex flex-col items-center gap-3">
-        {/* logo or brand name */}
-        <h4 className="text-lg font-semibold tracking-wide text-white">
-          $BTCSTR
+        {/* brand */}
+        <h4 className="text-xl font-semibold tracking-wide text-white">
+          $STBLSTR
         </h4>
 
         {/* divider */}
         <div className="h-px w-16 bg-white/10" />
 
         {/* info line */}
-        <p className="text-[13px] text-zinc-500">
+        <p className="text-[13px] text-zinc-200">
           CA:{" "}
           <span className="text-primary/80 font-mono tracking-tight">
-            0xAbc...Def
+            0xAbc...123
           </span>{" "}
+          {/* <a
+            href="#"
+            className="underline decoration-dotted hover:text-primary transition-colors"
+            aria-label="View on block explorer"
+          >
+            Explorer
+          </a>{" "}
           •{" "}
           <a
             href="#"
             className="underline decoration-dotted hover:text-primary transition-colors"
+            aria-label="StableStrategy on X"
           >
-            Twitter
-          </a>
+            X (Twitter)
+          </a> */}
         </p>
 
         {/* copyright */}
-        <p className="text-xs text-zinc-600 mt-2">
-          © {new Date().getFullYear()} BTCStrategy.fi — All rights reserved.
+        <p className="text-xs text-zinc-200 mt-2">
+          © {new Date().getFullYear()} StableStrategy — Perpetual Stable
+          Machine.
         </p>
       </div>
 

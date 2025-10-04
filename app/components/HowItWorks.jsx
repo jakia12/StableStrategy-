@@ -1,12 +1,21 @@
 import { ArrowDownRight } from "lucide-react";
 
 const steps = [
-  { n: "01", text: "10% tax on all $BTCSTR trades" },
-  { n: "02", text: "9% allocated to burn $BTCSTR – 1% to protocol creator" },
-  { n: "03", text: "$BTCSTR fees burned • $ETH fees added to treasury" },
+  {
+    n: "01",
+    text: "All transactions feed the Stability Engine — collecting on-chain volume fees automatically.",
+  },
+  {
+    n: "02",
+    text: "Protocol allocates fees between BTC accumulation and $STBLSTR burn pools for sustained equilibrium.",
+  },
+  {
+    n: "03",
+    text: "Treasury deploys ETH reserves to acquire BTC, reinforcing value backing through strategic buy cycles.",
+  },
   {
     n: "04",
-    text: "Treasury buys $BTC • Sold at +20% premium • Proceeds burn more $BTCSTR",
+    text: "Profits from BTC appreciation are recycled — proceeds burn $STBLSTR, fueling perpetual stability.",
   },
 ];
 
@@ -33,9 +42,8 @@ export default function HowItWorks() {
                   aria-hidden
                 />
                 {/* the circle badge */}
-                <div className="relative z-20 grid h-10 w-10 place-items-center rounded-full border border-primary/40 bg-gradient-to-b from-primary/10 to-transparent text-[11px] font-semibold tracking-wider text-primary shadow-[inset_0_0_0_1px_rgba(255,255,255,0.06)]">
+                <div className="relative z-20 grid h-10 w-10 place-items-center rounded-full border border-primary/40 bg-gradient-to-b from-primary/10 to-transparent text-[11px] font-semibold tracking-wider text-primary shadow-[inset_0_0_0_1px_rgba(255,255,255,0.09)]">
                   {n}
-                  {/* inner ring */}
                   <span className="pointer-events-none absolute inset-0 rounded-full ring-1 ring-inset ring-primary/30" />
                 </div>
               </div>

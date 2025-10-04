@@ -4,7 +4,7 @@ const stats = [
   { label: "Protocol Treasury", value: "0", unit: "ETH", icon: Coins },
   { label: "Accumulated BTC", value: "0", unit: "BTC", icon: Bitcoin },
   { label: "Cycle Yield", value: "12.45", unit: "%", icon: TrendingUp },
-  { label: "Total $BTCSTR Burned", value: "0", unit: "BTCSTR", icon: Flame },
+  { label: "Total $STBLSTR Burned", value: "0", unit: "STBLSTR", icon: Flame },
 ];
 
 export default function StatsGrid() {
@@ -29,7 +29,7 @@ export default function StatsGrid() {
           <span className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
 
           {/* Label */}
-          <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-zinc-400">
+          <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-zinc-300">
             {label}
           </p>
 
@@ -38,14 +38,14 @@ export default function StatsGrid() {
             <span className="text-4xl sm:text-5xl font-semibold leading-none text-white">
               {value}
             </span>
-            {unit && <span className="text-sm text-zinc-400">{unit}</span>}
+            {unit && <span className="text-sm text-zinc-200">{unit}</span>}
           </div>
 
           {/* Divider */}
           <div className="mx-auto my-4 h-px w-10 bg-white/10" />
 
           {/* Helper row */}
-          <div className="flex items-center justify-center gap-2 text-[11px] text-zinc-500">
+          <div className="flex items-center justify-center gap-2 text-[11px] text-zinc-200">
             <span className="h-1.5 w-1.5 rounded-full bg-primary/70" />
             updated live • on-chain verified
           </div>

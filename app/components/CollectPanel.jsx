@@ -22,7 +22,7 @@ export default function CollectPanel() {
       </h3>
 
       {/* Description */}
-      <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
+      <p className="mt-3 text-[16px] text-zinc-200 leading-relaxed">
         Activate StableStrategy’s on-chain routine to rebalance liquidity,
         harvest accumulated fees, and deploy capital toward perpetual stability.
       </p>
@@ -39,9 +39,9 @@ export default function CollectPanel() {
       <div className="my-6 h-px w-16 mx-auto bg-white/10" />
 
       {/* Comment hint */}
-      <p className="text-[11px] leading-relaxed text-zinc-500 font-mono opacity-80">
+      <p className="text-[11px] leading-relaxed text-zinc-300 font-mono opacity-80">
         // Permissionless execution — wallet required // Auto-compounds BTC &
-        burns $BTCSTR proportionally
+        burns $STBLSTR proportionally
       </p>
 
       {/* bottom glow */}

@@ -4,7 +4,7 @@ const blocks = [
   {
     icon: Flame,
     title: "Perpetual Burn Engine",
-    body: "Each transaction fuels the protocol’s deflationary core — burning $BTCSTR to strengthen long-term stability.",
+    body: "Each transaction fuels the protocol’s deflationary core — burning $STBLSTR to strengthen long-term stability.",
   },
   {
     icon: ShieldCheck,
