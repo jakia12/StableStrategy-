@@ -3,19 +3,19 @@ import { ArrowDownRight } from "lucide-react";
 const steps = [
   {
     n: "01",
-    text: "All transactions feed the Stability Engine — collecting on-chain volume fees automatically.",
+    text: "All transactions feed the Stability Engine — collecting ETH fees on every trade.",
   },
   {
     n: "02",
-    text: "Protocol allocates fees between BTC accumulation and $STBLSTR burn pools for sustained equilibrium.",
+    text: "Treasury accumulates ETH; once threshold (1 ETH) is reached, the contract swaps it into USDC.",
   },
   {
     n: "03",
-    text: "Treasury deploys ETH reserves to acquire BTC, reinforcing value backing through strategic buy cycles.",
+    text: "When USDC appreciates (≈ 5% ETH drop), the contract redeems it back for ETH, triggering a $STBLSTR buy-and-burn.",
   },
   {
     n: "04",
-    text: "Profits from BTC appreciation are recycled — proceeds burn $STBLSTR, fueling perpetual stability.",
+    text: "The cycle repeats indefinitely, making volatility itself the fuel for deflation.",
   },
 ];
 

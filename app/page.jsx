@@ -1,5 +1,4 @@
 import CollectPanel from "./components/CollectPanel";
-import FeatureBlocks from "./components/FeatureBlocks";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Section from "./components/Section";
@@ -19,9 +18,9 @@ export default function Page() {
         <CollectPanel />
       </Section>
 
-      <Section title="Features" subtitle="Why this design works">
+      {/* <Section title="Features" subtitle="Why this design works">
         <FeatureBlocks />
-      </Section>
+      </Section> */}
 
       <Section title="How it works" subtitle="Overview">
         <HowItWorks />

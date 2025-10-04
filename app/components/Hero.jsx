@@ -25,9 +25,9 @@ export default function Hero() {
 
         {/* Description */}
         <p className="mt-4 text-center text-sm sm:text-base text-zinc-400 max-w-[680px] mx-auto">
-          StableStrategy is a perpetual stability engine — automating Bitcoin
-          accumulation through smart volume taxation and strategic treasury
-          mechanics. Trade, burn, and build lasting value in every transaction.
+          The Perpetual Stable Machine - powered by $STBLSTR A self-stabilizing
+          system built on Ethereum. Accumulate stables. Rebuy ETH. Burn supply.
+          Repeat.
         </p>
 
         {/* CTA Buttons */}

@@ -14,7 +14,7 @@ const blocks = [
   {
     icon: Repeat,
     title: "Auto-Stabilizing Cycle",
-    body: "Collected fees are algorithmically cycled into BTC reserves, sustaining equilibrium through continuous buybacks.",
+    body: "Collected fees are algorithmically cycled into USDT reserves, sustaining equilibrium through continuous buybacks.",
   },
 ];
 

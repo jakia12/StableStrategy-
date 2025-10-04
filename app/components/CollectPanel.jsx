@@ -17,20 +17,21 @@ export default function CollectPanel() {
       </div>
 
       {/* Title */}
-      <h3 className="mt-2 text-2xl font-semibold text-primary tracking-wide uppercase">
-        execute_strategy()
+      <h3 className="mt-2 text-2xl font-semibold text-primary tracking-wide ">
+        executeStableStrategy()
       </h3>
 
       {/* Description */}
       <p className="mt-3 text-[16px] text-zinc-200 leading-relaxed">
-        Activate StableStrategy’s on-chain routine to rebalance liquidity,
-        harvest accumulated fees, and deploy capital toward perpetual stability.
+        Execute StableStrategy’s on-chain logic to swap ETH for USDT once
+        treasury thresholds are met and earn 0.1 eth as a reward— fueling
+        perpetual deflation.
       </p>
 
       {/* Button */}
       <div className="mt-8">
         <button className="btn-primary px-6 py-2.5 text-sm font-medium">
-          Run Protocol Cycle
+          Execute StableStrategy
           <ArrowRight className="ml-2 h-4 w-4" />
         </button>
       </div>
@@ -40,7 +41,7 @@ export default function CollectPanel() {
 
       {/* Comment hint */}
       <p className="text-[11px] leading-relaxed text-zinc-300 font-mono opacity-80">
-        // Permissionless execution — wallet required // Auto-compounds BTC &
+        // Permissionless execution — wallet required // Auto-compounds USDT &
         burns $STBLSTR proportionally
       </p>
 
