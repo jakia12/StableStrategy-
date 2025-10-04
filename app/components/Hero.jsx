@@ -13,9 +13,9 @@ export default function Hero() {
         <Incoming />
       </div>
 
-      <div className="container-max pt-10 sm:pt-16 pb-10">
+      <div className="container-max pt-10 sm:pt-8 pb-10">
         {/* Logo */}
-        <div className="flex items-center justify-center pt-[80px] pb-[50px]">
+        <div className="flex items-center justify-center sm:pt-[30px] md:pt-[50px] pb-[50px]">
           <img
             src="/logo.png"
             alt="StableStrategy Logo"
