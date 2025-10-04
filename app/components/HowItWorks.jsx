@@ -7,11 +7,11 @@ const steps = [
   },
   {
     n: "02",
-    text: "Treasury accumulates ETH; once threshold (1 ETH) is reached, the contract swaps it into USDC.",
+    text: "Treasury accumulates ETH; once threshold (1 ETH) is reached, the contract swaps it into USDT.",
   },
   {
     n: "03",
-    text: "When USDC appreciates (≈ 5% ETH drop), the contract redeems it back for ETH, triggering a $STBLSTR buy-and-burn.",
+    text: "When USDT/WETH appreciate (ETH DROPS), the contract redeems it back for ETH, triggering a $STBLSTR buy-and-burn.",
   },
   {
     n: "04",

@@ -1,8 +1,8 @@
-import { Bitcoin, Coins, Flame, TrendingUp } from "lucide-react";
+import { Coins, DollarSign, Flame, TrendingUp } from "lucide-react";
 
 const stats = [
   { label: "Protocol Treasury", value: "0", unit: "ETH", icon: Coins },
-  { label: "Accumulated USDT", value: "0", unit: "USDT", icon: Bitcoin },
+  { label: "Accumulated USDT", value: "0", unit: "USDT", icon: DollarSign },
   { label: "Cycle Target", value: "5", unit: "%", icon: TrendingUp },
   { label: "Total $STBLSTR Burned", value: "0", unit: "STBLSTR", icon: Flame },
 ];

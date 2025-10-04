@@ -1,4 +1,5 @@
 import { Wallet } from "lucide-react";
+import Incoming from "./Incoming";
 
 export default function Hero() {
   return (
@@ -6,6 +7,10 @@ export default function Hero() {
       {/* faint gradient bars */}
       <div className="pointer-events-none absolute inset-0 opacity-40">
         <div className="absolute -top-40 left-1/2 h-[600px] w-[900px] -translate-x-1/2 rounded-[999px] bg-primary/15 blur-3xl" />
+      </div>
+
+      <div className="text-center mt-8">
+        <Incoming />
       </div>
 
       <div className="container-max pt-10 sm:pt-16 pb-10">
@@ -26,8 +31,7 @@ export default function Hero() {
         {/* Description */}
         <p className="mt-4 text-center text-sm sm:text-base text-zinc-400 max-w-[680px] mx-auto">
           The Perpetual Stable Machine - powered by $STBLSTR A self-stabilizing
-          system built on Ethereum. Accumulate stables. Rebuy ETH. Burn supply.
-          Repeat.
+          system built on Ethereum. ETH → USDT → Burn → Repeat
         </p>
 
         {/* CTA Buttons */}

@@ -8,6 +8,7 @@ import StatsGrid from "./components/StatsGrid";
 export default function Page() {
   return (
     <>
+      
       <Hero />
 
       <Section>

@@ -19,22 +19,32 @@ export default function SiteFooter() {
           <span className="text-primary/80 font-mono tracking-tight">
             0xAbc...123
           </span>{" "}
-          {/* <a
-            href="#"
+        </p>
+        <div className="">
+          <a
+            href="tglink"
             className="underline decoration-dotted hover:text-primary transition-colors"
             aria-label="View on block explorer"
           >
-            Explorer
+            Telegram
           </a>{" "}
           •{" "}
           <a
-            href="#"
+            href="ttlink"
             className="underline decoration-dotted hover:text-primary transition-colors"
             aria-label="StableStrategy on X"
           >
             X (Twitter)
-          </a> */}
-        </p>
+          </a>
+          •{" "}
+          <a
+            href="www.etherscan.io"
+            className="underline decoration-dotted hover:text-primary transition-colors"
+            aria-label="StableStrategy on X"
+          >
+          Etherscan
+          </a>
+        </div>
 
         {/* copyright */}
         <p className="text-xs text-zinc-200 mt-2">
