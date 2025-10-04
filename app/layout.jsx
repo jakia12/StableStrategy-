@@ -11,7 +11,7 @@ const jet = JetBrains_Mono({
 export const metadata = {
   title: "StableStrategy — Perpetual Stable Machine",
   description:
-    "StableStrategy is a self-sustaining protocol that automates Bitcoin accumulation, burns $BTCSTR, and maintains long-term equilibrium through on-chain mechanics.",
+    "StableStrategy is a self-sustaining protocol that automates Bitcoin accumulation, burns  $STBLSTR, and maintains long-term equilibrium through on-chain mechanics.",
 };
 
 export default function RootLayout({ children }) {
