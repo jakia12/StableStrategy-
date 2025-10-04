@@ -22,7 +22,7 @@ export default function SiteFooter() {
         </p>
         <div className="">
           <a
-            href="tglink"
+            href="https://t.me/stablestrategy"
             className="underline decoration-dotted hover:text-primary transition-colors"
             aria-label="View on block explorer"
           >
@@ -30,7 +30,7 @@ export default function SiteFooter() {
           </a>{" "}
           •{" "}
           <a
-            href="ttlink"
+            href="https://x.com/stablestrategy"
             className="underline decoration-dotted hover:text-primary transition-colors"
             aria-label="StableStrategy on X"
           >
