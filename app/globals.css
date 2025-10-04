@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
+/* ===== Tailwind v4 tokens (no tailwind.config needed) ===== */
+@theme {
+  /* Colors (so bg-ink, text-primary, etc. work) */
+  --color-ink: #0b0c0d;
+  --color-ink-2: #111214;
+  --color-primary: #26a07b;
+  --color-primary-400: #35b08a;
+  --color-primary-200: #8ed9c3;
+
+  /* (optional) add spacing token if you want py-18 later
+  --spacing-18: 4.5rem;
+  */
+}
+
+/* Subtle radial spotlight behind content */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --spot: radial-gradient(
+    800px 400px at 50% -10%,
+    rgba(38, 160, 123, 0.18),
+    rgba(0, 0, 0, 0)
+  );
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-ink text-zinc-200;
+  background-image: var(--spot);
+  background-attachment: fixed;
+}
+
+/* Map font-mono to the Next/font variable */
+.font-mono {
+  font-family: var(--font-jet), ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Small helpers (these are just regular CSS classes) */
+.container-max {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  background-color: color-mix(in oklab, var(--color-ink-2) 85%, transparent);
+  backdrop-filter: blur(6px);
+  border-radius: 0.75rem;
+  border: 1px solid rgb(255 255 255 / 0.05);
+  /* two layered shadows */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium
+         bg-primary/20 hover:bg-primary/30 text-primary border border-primary/40
+         transition-colors;
+}
+.btn-ghost {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium
+         bg-white/5 hover:bg-white/10 border border-white/10 transition-colors;
+}
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full border border-white/10
+         bg-white/5 px-3 py-1 text-xs uppercase tracking-wide;
+}
+.hr {
+  @apply h-px w-full bg-white/10;
 }
